@@ -1,0 +1,49 @@
+---------------------------------------------------------------------------------------------
+html
+---------------------------------------------------------------------------------------------
+<html>
+<head></head>
+<body>
+  <div id="div1" style="height: 100px; width: 100px;"></div>
+  <div id="div2" style="width: 100px; height: 100px;"></div>
+  <span id="span1" style="width: 100px; height: 100px; display: inline-block;"></span>
+  <span id="span2" style="width: 100px; height: 100px; display: inline-block;"></span>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------
+javascript
+---------------------------------------------------------------------------------------------
+var primerDiv = document.querySelector("#div1");
+var segundoDiv = document.querySelector("#div2");
+var primerSpan = document.querySelector("#span1");
+var segundoSpan = document.querySelector("#span2");
+
+
+primerDiv.style.width = "100px"
+primerDiv.style.height = "100px"
+segundoDiv.style.width = "100px"
+segundoDiv.style.height = "100px"
+primerSpan.style.width = "100px"
+primerSpan.style.height = "100px"
+segundoSpan.style.width = "100px"
+segundoSpan.style.height = "100px"
+
+primerSpan.style.display = "inline*block"
+segundoSpan.style.display = "inline-block"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

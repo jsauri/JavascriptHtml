@@ -1,0 +1,30 @@
+repaso de tipos de datos y variables
+arreglos
+obtener y manejar los valores del arreglo
+objetos
+obtener valores de los objetos, hay dos maneras de acceder a
+los valores del objeto, dinamicas
+
+ciclos
+
+for
+el ciclo for tiene 3 partes, la inicializacion, condicion y progresion.
+//for loop
+let arr= [];
+let
+for(var i=0; i<100; i++); {
+  arr.push(i);
+}
+console.log(arr)
+
+
+
+ 
+
+ 
+
+  
+
+
+        
+

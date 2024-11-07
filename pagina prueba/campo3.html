@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="input" type=""><br><br> <!-- se crea la etiqueta input, se asigna un id y se deja dos espacios hacia abajo  -->
+    <label id= "label" for="input">hola</label><br><br> <!-- se crea la etiqueta label, se asigna un id y se deja dos espacios hacia abajo-->
+    <button onclick="changeLabel()">haz click</button> <!-- se crea el boton, se asigna el atributo onclick y se mete el resultado de la funcion, se pone el nombre -->
+    
+</body>
+<script>
+    function changeLabel(){  /* se crea la funcion que va a ejecutar el button y va a ir dentro del onclick */
+        const theInput = document.querySelector("#input"); /* se crea la variable theInput donde se va almacenar un objeto que apunta el nodo de la etiqueta input */
+        const theLabel = document.querySelector("#label");/* se crea la variable theLabel donde se va a almacernar un objeto que apunta al nodod de la etiqueta label */
+        const theValue = theInput.value; /* se crea la variable theValue donde se almacena el valor que se ingresa en el input */
+        theLabel.innerHTML = theValue; /* se asigna al valor del label el nuevo valor que proviene del nuevo valor del input */
+        theInput.value = ""; /* se borra el valor del input */
+
+    }
+
+
+
+</script>
+</html>

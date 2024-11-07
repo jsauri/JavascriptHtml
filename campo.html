@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input  id='campo' type="text"> <br><br>
+        <label id= 'campo2' for="campo">lo que se va a cambiar</label> <br><br>
+        <button id="elBoton" onclick="cambio()">cambiar</button>
+    </div>
+</body>
+<script>
+
+const cambio = () => {    
+    
+    const input = document.querySelector('#campo');
+    const valorInput = input.value;
+    input.value = "";
+    const label = document.querySelector("#campo2");
+    label.innerHTML = valorInput;
+   
+} 
+
+</script>
+</html>

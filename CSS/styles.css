@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body { 
+    font-size: larger;
+    color: rgb(250, 250, 250);
+    height: 100vh;
+    background: rgb(68,0,139);
+    background: linear-gradient(145deg, rgb(68,0,139),10%,rgb(0,0,0),60%,rgb(0,0,0),rgb(0, 0, 0),80%,rgb(88, 1, 68),95%,rgb(145, 26, 115));
+    
+
+}
+
